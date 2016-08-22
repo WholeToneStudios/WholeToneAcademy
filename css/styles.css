@@ -1,0 +1,35 @@
+.yelp {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+/* Navigation */
+
+nav.primary {
+  border-bottom: solid grey 1px;
+}
+
+nav.primary ul,
+nav.primary ul li {
+  margin: 0px;
+}
+
+nav.primary ul li {
+  display: inline;
+  float: left;
+  position: relative;
+}
+
+nav.primary ul li a {
+  display: inline-block;
+  line-height: 49px;
+  padding: 0 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+}
+
+nav.primary ul li a:hover{
+  color: grey;
+}
